@@ -1,1 +1,3 @@
-# astro-blog
+# Astro Starter Kit: Blog
+
+WIP

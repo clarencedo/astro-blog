@@ -1,0 +1,15 @@
+---
+import BaseLayout from './Base.astro'
+import BlogHeader from '@/components/BlogHeader';
+import BlogPost from '@/components/BlogPost';
+
+
+const { content } = Astro.props;
+const { title, description, publishDate, author, heroImage, permalink, alt } = content;
+---
+<BaseLayout title={title} description={description}>
+	<BlogHeader slot="header" />
+	<BlogPost {title} {author} {heroImage} {publishDate} {alt}>
+		<slot />
+	</BlogPost>
+</BaseLayout>
