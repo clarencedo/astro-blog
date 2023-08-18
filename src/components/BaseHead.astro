@@ -1,5 +1,5 @@
 ---
-import type { SiteMeta } from "@/data/siteMeta";
+import type { SiteMeta } from "@/data/types";
 import { siteConfig } from "@/site-config";
 import "../styles/global.css";
 
@@ -54,8 +54,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <meta property="twitter:description" content={description} />
 {image && <meta property="twitter:image" content={image} />}
 
+<!-- Sitemap -->
+<link rel="sitemap" href="/sitemap-index.xml" />
+
 <!-- RSS auto-discovery -->
 <link rel="alternate" type="application/rss+xml" title={siteConfig.title} href="/rss.xml" />
-
-<!-- Sitemap -->
-<link rel="sitemap" type="application/xml" href="/sitemap-index.xml">
