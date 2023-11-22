@@ -1,6 +1,6 @@
 ---
 title: "LSM Tree"
-publishDate: "24 Dec 2023"
+publishDate: "21 Dec 2023"
 description: "LSM树原理，与B+树的区别，在应用上用什么差异"
 tags: ["database", "lsm-tree"]
 # ogImage: "/social-card.png"
