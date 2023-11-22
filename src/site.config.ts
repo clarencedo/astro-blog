@@ -24,7 +24,6 @@ export const siteConfig: SiteConfig = {
 	includeViewTransitions: false,
 	webmentions: {
     link: "https://webmention.io/api/mentions.html?token=ycAOZfn8Xc-3kFFyJThf1g",
-    // link: "https://webmention.io/astro-cactus.chriswilliams.dev/webmention",
 	},
 };
 
