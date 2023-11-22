@@ -5,7 +5,7 @@ description: "弃用Next.js，改用Astro.js"
 coverImage:
   src: "./1.jpg"
   alt: "Astro build wallpaper"
-tags: [""]
+tags: ["life"]
 ---
 
 ## 个人网站迁移
