@@ -20,7 +20,6 @@ export function generateToc(headings: ReadonlyArray<MarkdownHeading>) {
 
 	bodyHeadings.forEach((h) => {
 		const heading: TocItem = { ...h, subheadings: [] };
-
 		// add h2 elements into the top level
 		if (heading.depth === 2) {
 			toc.push(heading);
