@@ -1,4 +1,4 @@
-
+---
 import PageLayout from "@/layouts/Base";
 import PostPreview from "@/components/blog/PostPreview";
 import SocialList from "@/components/SocialList";
@@ -9,16 +9,11 @@ const allPosts = await getAllPosts();
 const allPostsByDate = sortMDByDate(allPosts).slice(0, MAX_POSTS);
 
 const cactusTech: Array<{ year: string; name: string; href: string }> = [
-	// {
-	// 	year: "2023.12 - Present",
-	// 	name: "PwC",
-	// 	href: "https://www.pwc.com/gx/en.html",
-	// },
 	{
 		year: "2023.08 - 2023.10",
 		name: "Workstream",
 		href: "https://www.workstream.us/",
-	}
+	},
 	{
 		year: "2021.12 - 2023.07",
 		name: "FreyrSolutions",
@@ -27,7 +22,7 @@ const cactusTech: Array<{ year: string; name: string; href: string }> = [
 	{
 		year: "2021.01 - 2021.12",
 		name: "China Merchants Bank",
-		href: "https://cmbnt.cmbchina.com/",
+		href: "",
 	},
 	{
 		year: "2017.12 - 2021.01",
