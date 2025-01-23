@@ -36,7 +36,14 @@ const socialLinks: Array<{
 ---
 
 <div class="flex flex-wrap items-end gap-x-4">
-	<!-- <p>Find me on</p> -->
+  <!--<p>Find me on</p> -->
+  <div class="flex flex-col items-center gap-6">
+    <img
+        src ="https://picsum.photos/200/200"
+        alt="portfolio"
+        class="w-32 h-32 rounded-full"
+    />
+  <div/>
 	<ul class="flex flex-1 items-center gap-x-2 sm:flex-initial">
 		{
 			socialLinks.map(({ link, name, friendlyName, isWebmention }) => (
