@@ -1,6 +1,6 @@
 ---
 title: "新的开始"
-publishDate: "11 June 2023"
+publishDate: "11 June 2022"
 description: "弃用Next.js，改用Astro.js"
 coverImage:
   src: "./1.jpg"
